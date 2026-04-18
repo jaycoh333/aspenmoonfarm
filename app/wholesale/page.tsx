@@ -119,7 +119,7 @@ export default function WholesalePage() {
 
       <section className="section">
         <div className="container-farm">
-          <div className="overflow-hidden rounded-4xl bg-olive-900 p-8 text-cream-100 sm:p-12 lg:p-16">
+          <div className="overflow-hidden rounded-4xl bg-gradient-to-br from-olive-900 to-aspen-900 p-8 text-cream-100 sm:p-12 lg:p-16">
             <div className="grid items-center gap-10 lg:grid-cols-[2fr,1fr]">
               <div>
                 <span className="eyebrow text-cream-100">

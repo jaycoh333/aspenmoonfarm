@@ -105,7 +105,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section bg-olive-900 text-cream-50">
+      <section className="section bg-gradient-to-b from-olive-900 to-aspen-900 text-cream-50">
         <div className="container-farm">
           <div className="grid items-center gap-12 lg:grid-cols-2">
             <Reveal>

@@ -72,7 +72,7 @@ export default function FindUsPage() {
 
       <section className="section-tight">
         <div className="container-farm">
-          <div className="grid gap-8 rounded-4xl bg-gradient-to-br from-olive-900 to-moss-800 p-8 text-cream-100 sm:p-12 lg:grid-cols-[2fr,1fr] lg:p-16">
+          <div className="grid gap-8 rounded-4xl bg-gradient-to-br from-olive-900 via-olive-900 to-aspen-900 p-8 text-cream-100 sm:p-12 lg:grid-cols-[2fr,1fr] lg:p-16">
             <div>
               <span className="eyebrow text-cream-100">
                 <span className="h-1.5 w-1.5 rounded-full bg-gold-300" aria-hidden />

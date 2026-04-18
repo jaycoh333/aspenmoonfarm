@@ -8,7 +8,9 @@ export function Logo({
   className?: string;
   variant?: "dark" | "light";
 }) {
-  const color = variant === "light" ? "text-cream-50" : "text-olive-900";
+  const wordmarkColor = variant === "light" ? "text-cream-50" : "text-olive-900";
+  // Brand purple glyph — echoes the original site logo.
+  const glyphColor = variant === "light" ? "text-aspen-300" : "text-aspen-700";
   return (
     <Link
       href="/"
@@ -20,12 +22,12 @@ export function Logo({
           "relative grid h-9 w-9 place-items-center rounded-full border transition-transform group-hover:-rotate-6",
           variant === "light"
             ? "border-cream-50/30 bg-cream-50/10"
-            : "border-olive-900/15 bg-cream-100"
+            : "border-aspen-700/18 bg-cream-100"
         )}
       >
         <svg
           viewBox="0 0 24 24"
-          className={cn("h-5 w-5", color)}
+          className={cn("h-5 w-5", glyphColor)}
           fill="none"
           stroke="currentColor"
           strokeWidth={1.5}
@@ -39,7 +41,7 @@ export function Logo({
           <circle cx="12" cy="12" r="1.5" fill="currentColor" />
         </svg>
       </span>
-      <span className={cn("flex flex-col leading-none", color)}>
+      <span className={cn("flex flex-col leading-none", wordmarkColor)}>
         <span className="font-display text-lg font-semibold tracking-tight">
           Aspen Moon
         </span>

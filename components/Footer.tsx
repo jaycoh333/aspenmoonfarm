@@ -7,7 +7,7 @@ import { siteConfig } from "@/data/siteConfig";
 
 export function Footer() {
   return (
-    <footer className="mt-24 bg-olive-900 text-cream-100">
+    <footer className="mt-24 bg-gradient-to-b from-olive-900 via-olive-900 to-aspen-950 text-cream-100">
       <div className="container-farm py-16 lg:py-20">
         <div className="grid gap-12 lg:grid-cols-12">
           <div className="lg:col-span-5">

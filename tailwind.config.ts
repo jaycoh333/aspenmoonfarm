@@ -65,6 +65,22 @@ const config: Config = {
           800: "#2f4027",
           900: "#283622",
         },
+        // Aspen Moon brand purple — sampled from the original logo (#463F81).
+        // Use as a secondary accent alongside olive/gold, for dark bands,
+        // eyebrows, and link/CTA hover states.
+        aspen: {
+          50: "#f5f4fa",
+          100: "#ebe9f4",
+          200: "#d4d0e7",
+          300: "#b0a9d0",
+          400: "#877fb4",
+          500: "#655c9c",
+          600: "#544d8a",
+          700: "#463f81",
+          800: "#3a346a",
+          900: "#2e2952",
+          950: "#1f1c3a",
+        },
       },
       fontFamily: {
         display: ["var(--font-fraunces)", "Georgia", "serif"],

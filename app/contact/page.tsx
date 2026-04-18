@@ -86,7 +86,7 @@ export default function ContactPage() {
                   </div>
                 </div>
 
-                <div className="rounded-3xl bg-olive-900 p-6 text-cream-100">
+                <div className="rounded-3xl bg-gradient-to-br from-olive-900 to-aspen-900 p-6 text-cream-100">
                   <div className="text-xs font-medium uppercase tracking-[0.22em] text-gold-300">
                     Newsletter
                   </div>

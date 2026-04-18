@@ -26,7 +26,7 @@
   }
 
   ::selection {
-    @apply bg-gold-200 text-olive-900;
+    @apply bg-aspen-200 text-aspen-900;
   }
 
   /* Respect reduced motion */
@@ -80,7 +80,7 @@
   }
 
   .link-underline {
-    @apply relative inline-flex items-center gap-1 font-medium text-olive-800 transition-colors hover:text-gold-600;
+    @apply relative inline-flex items-center gap-1 font-medium text-olive-800 transition-colors hover:text-aspen-700;
   }
 
   .link-underline::after {

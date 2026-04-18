@@ -9,7 +9,7 @@ export function FarmUpdateBanner() {
   if (!open) return null;
 
   return (
-    <div className="relative z-40 bg-olive-900 text-cream-100">
+    <div className="relative z-40 bg-aspen-900 text-cream-100">
       <div className="container-farm flex items-center justify-between gap-4 py-2.5 text-sm">
         <div className="flex min-w-0 items-center gap-2">
           <Sprout className="h-4 w-4 shrink-0 text-gold-300" aria-hidden />

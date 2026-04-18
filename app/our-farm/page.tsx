@@ -134,7 +134,7 @@ export default function OurFarmPage() {
         </div>
       </section>
 
-      <section className="section bg-olive-900 text-cream-50">
+      <section className="section bg-gradient-to-br from-olive-900 via-olive-900 to-aspen-900 text-cream-50">
         <div className="container-farm">
           <div className="grid gap-8 lg:grid-cols-3">
             {[
